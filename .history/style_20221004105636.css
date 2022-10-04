@@ -134,7 +134,7 @@ p {
     padding-top: 2rem;
     font-family: 'Arial';
     color: red;
-    font-size: 2vw;
+    font-size: 1.5rem;
 }
 
 
@@ -150,7 +150,10 @@ p {
         height: 100vh;
         background-image: url(./image/bulls\ logo\ wallpaper.jpg);
     }
-    
+    h1,
+    p {
+        font-size: 2rem; 
+    }
     .box1 {
         width: 600px;
         height: 500px;

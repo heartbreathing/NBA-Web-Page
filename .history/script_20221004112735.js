@@ -22,13 +22,13 @@ document.getElementById('p2').style.fontFamily= "Arial";
 document.getElementById('p2').style.color = "white";
 
 
-// animation
-// function animate() {
-//     let box1 = document.getElementById('myBox');
-//     box1.classList.add('box1-animated');
-// }
-// let box1 = document.getElementById('myBox');
-// box1.addEventListener('mousedown',animate)
+animation
+function animate() {
+    let box1 = document.getElementById('myBox');
+    box1.classList.add('box1-animated');
+}
+let box1 = document.getElementById('myBox');
+box1.addEventListener('mousedown',animate)
  
 
 
