@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    /* height: 100vh; */
+    background-color: #333;
+    font-family: sans-serif;
+}
+
+.site-header {
+    top: 0;
+    width: 100%;
+    height: 44px;
+    background-color: rgba(48, 48, 51, 0.9);
+    position: fixed;
+    
+}
+.site-header__nav {
+    display: flex;
+    justify-content: end;
+}
+.site-header ul {
+    margin-left: 180px;
+    list-style: none;
+}
+
+.site-header ul li {
+    width: 56px;
+    height: 44px;
+    margin-left: 30px;
+    line-height: 44px;
+    float: left;
+    font-family: "SF Pro SC", "HanHei SC", "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 10px;
+}
+
+
+.site-header ul a {
+    list-style: none;
+    color: rgb(214, 214, 214);
+    text-decoration: none;
+}
+
+.content1 {
+    width: 100%;
+    height: 50vh;   
+    background-color: black; 
+    background-image: url(./image/bulls\ logo\ wallpaper800.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+/* .content2 {
+    position: relative;
+} */
+
+/* .pic__left {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+
+} */
+/* .pic__right {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    top: 50%;
+    right: 20%;
+    transform: translate(50%,-50%);
+ } */
+
+ /* .content2__pic img:not([src]){opacity:0;} */
+
+
+.content2 {
+    text-align: center;
+    background-color: rgb(15, 15, 15);
+    background-image:linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./image/222otherblack\ wallpaper.jpg);
+    padding: 3rem;
+    
+}
+
+.box1 {
+    width: 300px;
+    height: 250px;
+    /* margin: 120px auto; */
+    padding: 2rem;
+    transition: 1s;
+}
+.box1:hover {
+    transform: rotateX(45deg) scale(1.5);
+   
+}
+
+.box2 {
+    width: 300px;
+    height: 300px;
+    /* margin: 120px auto; */
+    padding: 2rem;
+    transition: 1s;
+}
+
+.box2:hover {
+    transform: rotateX(45deg) scale(1.5);
+   
+}
+.content3 {
+    /* width: 100%; */
+}
+.content3__picture {
+    text-align: center;
+    background-color: rgb(23, 23, 23);
+    background: transparent;
+    /* background-image:linear-gradient(0deg,transparent 50%,rgba(0,0,0,.7)),radial-gradient(50% 100%,transparent 0,rgba(0,0,0,.7) 100%), url(./image/content3.jpg); */
+    background-repeat: no-repeat;
+    border-bottom: 8px solid #222;
+  
+}
+.content4 {
+    background-image: linear-gradient(0deg,transparent 50%,rgba(0,0,0,.7)),radial-gradient(50% 100%,transparent 0,rgba(0,0,0,.7) 100%), url(./image/Michael-222.jpg);    
+    height: 50vh;
+    display: flex;
+    justify-content: start;
+     padding: 30px; 
+ }
+
+ .content4 .video {
+   width: 500px;   
+ } 
+
+
+/* .content2__picture span {
+    color: #f3eeee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+} */
+
+ p {
+    padding-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #F2F2F2;
+    font-size: 1.5rem;
+}
+
+
+.footer {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;    
+    /* display: flex inline-block; */
+    text-align: center;
+    padding: 40px;
+}
+ @media screen and (min-width:800px){
+    .content1 {
+        width: 100%;
+        height: 100vh;
+        background-image: url(./image/bulls\ logo\ wallpaper.jpg);
+    }
+    p {
+        font-size: 2.5rem; 
+    }
+    .box1 {
+        width: 600px;
+        height: 500px;
+        /* margin: 120px auto; */
+        padding: 2rem;
+        transition: 1s;
+    }
+    .content4 .video {
+        width: 800px;   
+      } 
+
+    
+ }

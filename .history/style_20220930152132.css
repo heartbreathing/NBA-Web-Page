@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    height: 4000px;
+    background-color: #F2F2F2;
+    font-family: sans-serif;
+}
+
+.site-header {
+    width: 100%;
+    height: 44px;
+    background-color: rgba(48, 48, 51, 0.9);
+    position: fixed;
+    
+}
+.site-header__nav {
+    display: flex;
+    justify-content: end;
+}
+.site-header ul {
+    margin-left: 180px;
+    list-style-type: none;
+}
+
+.site-header ul li {
+    width: 56px;
+    height: 44px;
+    margin-left: 30px;
+    line-height: 44px;
+    float: left;
+    font-family: "SF Pro SC", "HanHei SC", "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 10px;
+}
+
+.site-header ul a {
+    list-style: none;
+    color: rgb(214, 214, 214);
+     text-decoration: none;
+}
+
+.content1 {
+    width: 100%;
+    height: 50vh;   
+    background-color: black; 
+    background-image: url(./image/bulls\ logo\ wallpaper800.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+/*图片旋转效果*/
+.box1 {
+    width: 300px;
+    height: 300px;
+    margin: 100px ;
+    transition: 1s;
+}
+
+.box1:hover {
+    transform: rotateX(45deg) scale(2);
+    /* transform: scale(2); */
+}
+
+
+
+
+
+ @media screen and (min-width:800px){
+    .content1 {
+        width: 100%;
+        height: 105vh;
+        background-image: url(./image/bulls\ logo\ wallpaper.jpg);
+    }
+ }
