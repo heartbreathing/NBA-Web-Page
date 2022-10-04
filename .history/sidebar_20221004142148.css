@@ -1,6 +1,6 @@
 /* ionic source link*/
 /* @import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"; */
-@import "./image/ionicons.min.css"
+@import "./"
 .site-aside {
     position: absolute;
     top: 50px;
