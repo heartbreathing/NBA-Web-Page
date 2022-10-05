@@ -1,5 +1,5 @@
 /* ionic source link*/
-/* @import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"; */
+/* @import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"; *//
 /* @import "./image/ionicons.min.css"; */
 
 .site-aside {
@@ -54,9 +54,9 @@
 }
 
 .btn:before {
-  content: '\f32a';
+  content: '\f20d';
 }
 
 .btnc:before {
-  content: '\f2c0';
+  content: '\f12a';
 }

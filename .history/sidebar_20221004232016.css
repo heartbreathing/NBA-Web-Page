@@ -53,10 +53,10 @@
   cursor: pointer;
 }
 
-.btn:before {
-  content: '\f32a';
-}
+/* .btn:before {
+  content: '\f12a';
+} */
 
-.btnc:before {
-  content: '\f2c0';
-}
+/* .btnc:before {
+  content: '\f12a';
+} */

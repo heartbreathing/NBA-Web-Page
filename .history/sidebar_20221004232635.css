@@ -54,9 +54,9 @@
 }
 
 .btn:before {
-  content: '\f32a';
-}
+  content: '\f0c9';
+}  
 
 .btnc:before {
-  content: '\f2c0';
+  content: '\f00d';
 }
