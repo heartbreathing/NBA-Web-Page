@@ -23,10 +23,8 @@ document.getElementById('p2').style.color = "white";
 
 
 function clickMe() {
-    alert('Welcome to my web site!');
+    alert('Wellcome to my web site!')
 }
-let button = document.getElementById('about');
-button.addEventListener('click',clickMe)
 
 // animation
 // function animate() {

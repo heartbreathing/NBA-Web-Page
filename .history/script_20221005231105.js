@@ -22,11 +22,7 @@ document.getElementById('p2').style.fontFamily= "Arial";
 document.getElementById('p2').style.color = "white";
 
 
-function clickMe() {
-    alert('Welcome to my web site!');
-}
-let button = document.getElementById('about');
-button.addEventListener('click',clickMe)
+function clickMe 
 
 // animation
 // function animate() {

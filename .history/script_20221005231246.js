@@ -26,7 +26,7 @@ function clickMe() {
     alert('Welcome to my web site!');
 }
 let button = document.getElementById('about');
-button.addEventListener('click',clickMe)
+button.addEventListener()
 
 // animation
 // function animate() {
