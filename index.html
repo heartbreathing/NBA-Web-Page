@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>nba-web-page0930</title>
-
+<!-- font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
 
+<!--  ionic source link-->
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
 
     
-
+<!-- css  -->
     <link rel="stylesheet" href="sidebar.css">
     <link rel="stylesheet" href="style.css">
     
@@ -38,27 +39,21 @@
         <aside class="site-aside">
             <div class="sidebar" >
                 <ul>
-                  <li>
-                   <a href="https://twitter.com/thereal_mj_23?lang=en"><ion-icon name="logo-twitter"></ion-icon></a> 
-                    <!-- <a class="ion-social-twitter"
-                      href="https://twitter.com/thereal_mj_23?lang=en"  target="_blank"></a> -->
-                  </li>
-                  <li>
-                    <a href="https://www.youtube.com/c/NBA"><ion-icon name="logo-youtube"></ion-icon></a>
-                    <!-- <a class="ion-social-youtube" href="https://www.youtube.com/c/NBA"  target="_blank"></a> -->
-                  </li>
-                  <li>
-                    <a href="https://www.nba.com"><ion-icon name="basketball"></ion-icon></a>
-                    <!-- <a class="ion-ios-basketball" href="https://www.nba.com/" target="_blank"></a> -->
-                  </li>
-                  <li>
-                    <a href="https://github.com/heartbreathing/NBA-Web-Page"><ion-icon name="logo-github"></ion-icon></a>
-                    <!-- <a class="ion-social-github" href="https://github.com/heartbreathing/NBA-Web-Page" target="_blank"></a> -->
-                  </li>
-                  <li>
-                    <a href=""><ion-icon name="musical-notes"></ion-icon></a>
-                    <!-- <a class="ion-music-note" href="https://open.spotify.com/playlist/2YhXxDz58veK2l5iIau2dE" target="_blank"></a> -->
-                  </li>
+                    <li>
+                        <a href="https://twitter.com/thereal_mj_23?lang=en"><ion-icon name="logo-twitter"></ion-icon></a> 
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/c/NBA"><ion-icon name="logo-youtube"></ion-icon></a>
+                    </li>
+                    <li>
+                        <a href="https://www.nba.com"><ion-icon name="basketball"></ion-icon></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/heartbreathing/NBA-Web-Page"><ion-icon name="logo-github"></ion-icon></a>
+                    </li>
+                    <li>
+                         <a href=""><ion-icon name="musical-notes"></ion-icon></a>
+                    </li>
                 </ul>
               </div>
               <a class="btn" id="btn"></ion-icon></a>
@@ -75,26 +70,29 @@
                 <p class="animate__animated animate__heartBeat" id="p1">The Bulls are the only NBA franchise to win multiple championships while never losing an NBA Finals series in their history.</p>
                                 
                 <div class="content2__pic">
-                    <img  class="box1 " src="./image/1996 champion.jpeg">
+                    <img  class="box1 " src="./image/1996 champion.jpeg" alt="1996 champion photo">
                         
-                    <img  class="box1 "  src="./image/michael-jordan-phil-jacksonp.jpg">
+                    <img  class="box1 "  src="./image/michael-jordan-phil-jacksonp.jpg" alt="The photo of Jordan and Jackson">
 
                 </div>
-                
-
             </div>
 
             <div class="content3 ">
                 <div class="content3__picture">
                     <p id="p2">THE BEST LINEUP </p>
                     <div>
-                        <img  class="box2" src="./image/77.gif">
+                        <!-- <video  class="box2" src="./image/MJ.mp4" muted autoplay loop></video>
+                        <video  class="box2" src="./image/phil.mp4" muted autoplay loop></video>
+                        <video  class="box2" src="./image/PIppen.mp4" muted autoplay loop></video>
+                        <video  class="box2" src="./image/Rodman.mp4" muted autoplay loop></video> -->
+
+                        <img  class="box2" src="./image/77.gif" alt="Michael Jordan "> 
                         
-                        <img  class="box2"  src="./image/phil-jackson.gif">
-                        
-                        <img class="box2"  src="./image/jordan_pippen.gif">
+                        <img  class="box2"  src="./image/phil-jackson.gif" alt="Phil Jackson">
                       
-                        <img class="box2"   src="./image/Rodman.gif">
+                        <img class="box2"  src="./image/jordan_pippen.gif" alt="Jordan and Pippen">
+                        
+                        <img class="box2"   src="./image/Rodman.gif" alt="Rodman">
                         
                     </div>
 
@@ -125,9 +123,9 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
- <!-- jQuery source link -->
+<!-- jQuery source link -->
     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-    <!-- sidebar toggle button function  -->
+<!-- sidebar toggle button function  -->
     <script type="text/javascript">
         $('.btn').on('click',function () {
             $('.btn').toggleClass('btnc');

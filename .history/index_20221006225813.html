@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nba-web-page0930</title>
+<!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+<!--  ionic source link-->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+    
+<!-- css  -->
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <section class="wrapper">
+        <header class="site-header">
+            
+            <nav class="site-header__nav">
+                <ul class="site-header__nav__menu">
+                    
+                    <li class="animate__animated animate__bounce"><a href="#" target="_blank">Dynast</a></li>
+                    <li><a href="https://www.statmuse.com/nba/ask/bulls-record-during-the-90s" target="_blank">Record</a></li>
+                    <li><a href="https://www.imdb.com/title/tt8420184/" target="_blank">IMDb</a></li>
+                    <li><a href="#About" id="about">About</a></li>
+    
+                </ul>
+    
+            </nav>
+    
+        </header>
+        <aside class="site-aside">
+            <div class="sidebar" >
+                <ul>
+                    <li>
+                        <a href="https://twitter.com/thereal_mj_23?lang=en"><ion-icon name="logo-twitter"></ion-icon></a> 
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/c/NBA"><ion-icon name="logo-youtube"></ion-icon></a>
+                    </li>
+                    <li>
+                        <a href="https://www.nba.com"><ion-icon name="basketball"></ion-icon></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/heartbreathing/NBA-Web-Page"><ion-icon name="logo-github"></ion-icon></a>
+                    </li>
+                    <li>
+                         <a href=""><ion-icon name="musical-notes"></ion-icon></a>
+                    </li>
+                </ul>
+              </div>
+              <a class="btn" id="btn"></ion-icon></a>
+        </aside>
+       
+    
+
+        <main class="main">
+            
+            <div class="content1"></div>
+            <div class="content2 " id="content2">
+
+                <h1 class=" animate__animated animate__heartBeat" >90s CHICAGO BULLS DYNASTY </h1>
+                <p class="animate__animated animate__heartBeat" id="p1">The Bulls are the only NBA franchise to win multiple championships while never losing an NBA Finals series in their history.</p>
+                                
+                <div class="content2__pic">
+                    <img  class="box1 " src="./image/1996 champion.jpeg" alt="1996 champion photo">
+                        
+                    <img  class="box1 "  src="./image/michael-jordan-phil-jacksonp.jpg" alt="The photo of Jordan and Jackson">
+
+                </div>
+            </div>
+
+            <div class="content3 ">
+                <div class="content3__picture">
+                    <p id="p2">THE BEST LINEUP </p>
+                    <div>
+                        <video  class="box2" src="./image/MJ.mp4" muted autoplay loop></video>
+                        <!-- <img  class="box2" src="./image/77.gif" alt="Michael Jordan "> -->
+                        
+                        <!-- <img  class="box2"  src="./image/phil-jackson.gif" alt="Phil Jackson"> -->
+                        
+                        <img class="box2"  src="./image/jordan_pippen.gif" alt="Jordan and Pippen">
+                      
+                        <img class="box2"   src="./image/Rodman.gif" alt="Rodman">
+                        
+                    </div>
+
+                </div>
+                
+            </div>
+          
+            <div class="content4 ">
+                <video class="video" src="./image/videoplayback.mp4" muted autoplay loop></video>
+            </div>
+        </main>
+        
+    
+
+        <footer class="footer">
+            <div>Made by Li.W</div> 
+                    <div style="color: white" >copyright©2022</div> 
+                    <div>
+                        <a style="color: white" href="li.wang@hyperisland.se">li.wang@hyperisland.se</a>
+                    </div>  
+
+        </footer>
+
+    </section>
+
+    <!--  -->
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<!-- jQuery source link -->
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<!-- sidebar toggle button function  -->
+    <script type="text/javascript">
+        $('.btn').on('click',function () {
+            $('.btn').toggleClass('btnc');
+            $('.sidebar').toggleClass('side');
+    
+        })
+    </script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
