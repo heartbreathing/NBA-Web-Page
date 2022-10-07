@@ -11,7 +11,7 @@ parent.replaceChild(para, child);
 document.getElementById('p2').style.fontFamily= "Arial";
 document.getElementById('p2').style.color = "white";
 
-// Add a 'click' on 'about'.
+// add a click
 function clickMe() {
     alert('Welcome to my web site!');
 }

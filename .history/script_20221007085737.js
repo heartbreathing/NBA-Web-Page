@@ -1,3 +1,7 @@
+
+
+
+
 // // Replace the element.
 var para = document.createElement('p');
 var node = document.createTextNode('1991~1998 SIX NBA CHAMPIONSHIPS ')
@@ -11,7 +15,7 @@ parent.replaceChild(para, child);
 document.getElementById('p2').style.fontFamily= "Arial";
 document.getElementById('p2').style.color = "white";
 
-// Add a 'click' on 'about'.
+
 function clickMe() {
     alert('Welcome to my web site!');
 }
